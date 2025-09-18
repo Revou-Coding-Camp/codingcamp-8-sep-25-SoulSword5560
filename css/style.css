@@ -1,0 +1,129 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #0d1b2a;
+  color: #e0e1dd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: #1b263b;
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #e0e1dd;
+}
+
+.top {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.top input, 
+.top button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+#taskInput {
+    background: #0d1b2a;
+  flex: 1;
+}
+
+#dateInput {
+    background: #0d1b2a;
+  width: 150px;
+  color: #e0e1dd;
+}
+
+#addTaskButton {
+  background: #6e70e3;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#addTaskButton:hover {
+  background: #4ea8de;
+}
+
+.middle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.middle button {
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#filterButton {
+  background: #415a77;
+  color: #fff;
+}
+
+#deleteAllButton {
+  background: #6e70e3;
+  color: #fff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #0d1b2a;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead {
+  background:  #0d1b2a;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #1b263b;
+}
+
+.status-done {
+  text-decoration: line-through;
+  color: #76c893;
+}
+
+.action-btn {
+  padding: 5px 10px;
+  margin: 0 2px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.complete-btn {
+  background: #06d6a0;
+  color: #000;
+}
+
+.delete-btn {
+  background: #ef233c;
+  color: #fff;
+}
